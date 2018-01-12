@@ -1,0 +1,7 @@
+D:\Private C#\Towers\HanoyTowers\HanoyTowers\bin\Debug\HanoyTowers.exe.config
+D:\Private C#\Towers\HanoyTowers\HanoyTowers\bin\Debug\HanoyTowers.exe
+D:\Private C#\Towers\HanoyTowers\HanoyTowers\bin\Debug\HanoyTowers.pdb
+D:\Private C#\Towers\HanoyTowers\HanoyTowers\obj\Debug\HanoyTowers.csprojResolveAssemblyReference.cache
+D:\Private C#\Towers\HanoyTowers\HanoyTowers\obj\Debug\HanoyTowers.csproj.CoreCompileInputs.cache
+D:\Private C#\Towers\HanoyTowers\HanoyTowers\obj\Debug\HanoyTowers.exe
+D:\Private C#\Towers\HanoyTowers\HanoyTowers\obj\Debug\HanoyTowers.pdb
