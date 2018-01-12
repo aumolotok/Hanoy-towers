@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace HanoyTowers {
 	class Tower {
@@ -17,7 +12,6 @@ namespace HanoyTowers {
 		}
 
 		public Tower() { }
-
 
 		public bool Push(int income)
 		{
@@ -39,9 +33,16 @@ namespace HanoyTowers {
 			return false;
 		}
 
-		private int TopValue => Discs.Peek();
+		private int GetTopValue()
+		{
+			if (Discs.Count == 0)
+			{
+				return 0;
+			}
+			return Discs.Peek();
+		}
 
-		
+		public int TopValue => GetTopValue();
 
 		private Stack<int> Discs = new Stack<int>();
 	}
